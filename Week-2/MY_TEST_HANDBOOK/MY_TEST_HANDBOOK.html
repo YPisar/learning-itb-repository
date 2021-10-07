@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>
+			Вивчення CSS
+		</title>
+	</head>
+	
+	<!-- START BODY -->
+	<body>
+		
+		<header role='header'>
+			<nav role>
+				<ul>
+					<li><button type="button">Кнопка 1</button></li>
+					<li><button type="button">Кнопка 2</button></li>
+					<li><button type="button">Кнопка 3</button></li>
+				</ul>
+				<ol>
+					<li><button type="button">Кнопка 1</button></li>
+					<li><button type="button">Кнопка 2</button></li>
+					<li><button type="button">Кнопка 3</button></li>
+				</ol>	
+			</nav>
+		</header>
+		<hr>
+
+		<main>
+
+			<section>
+				<h1>Підключення каскадних таблиць стилів CSS</h1>
+
+				<a href="https://www.google.com/">Гоогле</a>
+				
+				<details>
+					<summary><b>Ефекти тексту</b></summary>
+					<p>
+						<abbr title="Організація Об'єднаних Націй">ООН</abbr> <br><br>
+						<!-- Браузер Internet Explorer до 6 версії включно не підтримує теґ <abbr>,
+						натомість рекомендується використовувати теґ <acronym> -->
+						<acronym title="Організація Об'єднаних Націй">ООН</acronym><br><br>
+						<strong>Lorem ipsum</strong> - <code>&ltstrong&gt</code>
+						<b>Lorem ipsum</b> - <code>&ltb&gt</code> <br>
+						
+						<em>Lorem ipsum</em> - <code>&ltem&gt</code>
+						<i>Lorem ipsum</i> - <code>&lti&gt</code> <br>
+						
+						<u>Lorem ipsum</u> - <code>&ltu&gt</code> <br>
+						<mark>Lorem ipsum</mark> -<code>&ltmark&gt</code> <br>
+						
+						<tt>Lorem ipsum</tt> -<code>&lttt&gt</code> <br>
+
+						<del>4589</del> <ins>5004</ins> - <code>&ltdel&gt, &ltins&gt</code><br>
+						<s>4589</s> <ins>5004</ins> - <code>&lts&gt, &ltins&gt</code><br>
+						<strike>4589</strike> <ins>5004</ins> - <code>&ltstrike&gt, &ltins&gt</code><br>
+						<br>
+						
+						<dfn>Інтерфейс</dfn> - сукупність засобів...(термін) - <code>&ltdfn&gt</code><br>
+						<kbd>Alt</kbd>+<kbd>F4</kbd> — закрити активне вікно - <code>&ltkbd&gt</code><br>
+						<i>СаО + Н<sub><small>2</small></sub>О = Са(ОН)<sub><small>2</small></sub></i>- <code>&ltsub&gt</code> <br>
+					</p>
+					<hr>
+				</details>
+
+				<details>
+					<summary><b>З використанням тегів </b><code>&ltblockquote&gt &ltcite&gt &ltq&gt</code></summary>
+
+					<blockquote cite = "https://css.in.ua/html/tag/blockquote">
+						Ваш час обмежений, не витрачайте його, проживаючи чуже життя. – Стів Джобс
+					</blockquote>	
+					<hr>
+
+					<cite href="https://css.in.ua/html/tag/blockquote">
+						Ваш час обмежений, не витрачайте його, проживаючи чуже життя. – Стів Джобс
+					</cite>
+					<hr>
+
+					<q>Ваш час обмежений, не витрачайте його, проживаючи чуже життя. – Стів Джобс</q>
+					<hr>
+				</details>
+
+				<details>
+					<summary><b>Ряд термінів З використанням тегів </b><code>&ltdl&gt &ltdt&gt &ltdd&gt</code></summary>
+					<p>
+						<dl>
+							<dt>С++</dt>
+							<dd>Універсальна комп’ютерна мова програмування...</dd>
+							<dt>C#</dt>
+							<dd>Спеціальна мова, що використовується для опису...</dd>
+						</dl>
+					</p>			
+					<hr>
+				</details>
+
+				<details>
+					<summary><b>З використанням тегу </b><code>&ltsamp&gt</code></summary>
+					<samp>
+						<pre>
+						body {  
+						   background-color: lightblue;  
+						}  
+						h1 {  
+						color: white;  
+						text-align: center;  
+						}  
+						p {  
+						font-family: verdana;  
+						font-size: 20px;  
+						} 
+						</pre>
+					</samp><hr>
+				</details>
+
+				<details>
+					<summary><b>З використанням тегу </b><code>&ltpre&gt</code></summary>
+					<pre> 
+					   -----           |-----
+					  ||----|          ----||  
+					  ||-----         -----||  
+					  ||-----|       |-----||
+					  || -----       ------||
+					  ||- ----|     |------||
+					  ||---||--     -------||
+					  ||--|| --|   |-------||
+					  || -|| |--   --- - --||
+					  || -||  --|-|--| - ---|
+					  |---||  |-----| |-----|
+					  |---||   |----  |-----| 
+					  |----|    ---   |-----|
+					  |-----          ------|
+					</pre>
+				</details>
+			</section>
+
+			<section>
+					<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br>
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris <br>
+				nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in <br>
+				reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla <br>
+				pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa<br>
+				qui officia deserunt mollit anim id est laborum.
+				</p>
+				<hr>
+			</section>
+			
+			<p>Використання <code>wbr</code> дихлор<wbr>дифеніл<wbr>трихлор<wbr>метил<wbr>метан</p>
+
+			<p><b>Приклад використання тега "span"</b></p>
+			<p><span class="letter">HTML</span>— стандартна мова розмітки веб-сторінок в Інтернеті.
+				Більшість веб-сторінок створюються за допомогою мови 
+				<span class="letter">HTML (або XHTML)</span>. Документ 
+				<span class="letter">HTML</span> 
+			оброблюється браузером та відтворюється на екрані у звичному для людини вигляді.</p> <hr>
+
+			<article>
+			    <section>
+			      <h2>Заголовок </h2>
+			      <p>Вміст</p>
+			    </section>
+			    <section>
+			      <h2>Заголовок </h2>
+			      <p>Вміст</p>
+			    </section>
+			    <hr>
+			</article>
+
+			<!-- TABLE -->
+			<table border="1">
+				<colgroup style="background-color:yellow">
+					<col>
+					<col>
+					<col style="background-color:red">
+				</colgroup>
+
+				<caption>Таблиця 1.1 Демонстрація прибутку фірми</caption>
+				<thead style="background-color:green">
+			 	<tr>	<th></th>	<th>Місяць</th>		<th>Прибуток (грн)</th></tr>
+			 	</thead>
+			 	<tbody>
+				<tr>	<td>1</td>	<td>Вересень</td>	<td>270</td></tr>
+				<tr>	<td>1</td>	<td>Вересень</td>	<td>270</td></tr>
+				<tr>	<td>2</td>	<td>Жовтень</td>	<td>420</td></tr>
+				</tbody>
+				<tfoot style="background-color:brown">
+				<tr>	<td>1</td>	<td>Вересень</td>	<td>270</td></tr>
+				<tr>	<td>2</td>	<td>Жовтень</td>	<td>420</td></tr>
+				</tfoot>
+			</table>
+			<!-- TABLE END -->
+
+			<img src="img/monkey.jpg" alt="Тут бібізяна"/>
+
+	 		<div>
+				 Текстове поле <code>textarea</code></p>
+				<textarea>
+					Введіть сюди ДІЧЬ
+				</textarea>
+			<div>  
+	
+		</main>
+
+		<footer>
+
+			<small>
+				Людішкам зі слабкими нервами не бажано дивитись цей контент
+			</small>
+
+			 <p><time datetime="1385-08-14">1385-08-14</time> Укладення Кревської унії.</p>
+			<address>Проспект Тараса Шевченка , б. 17, офіс 6</address>
+		</footer>
+	
+	<!-- <aside></aside> ВИДЖЕТ!!!-->
+	</body>
+
+</html>

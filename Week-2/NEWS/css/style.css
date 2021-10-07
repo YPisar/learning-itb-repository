@@ -1,0 +1,69 @@
+body {
+	margin: 10px;
+}
+h1 {
+	font: 60px Arial;
+	font-weight: bold;
+    color: #07475E;
+}
+.news {
+	border: 0px;
+	margin: 0px auto;
+	padding: 0px auto;
+	margin-block-start: 16px;
+	margin-block-end: 0px;
+}
+/*section.news {
+	margin-block-start: 0px;
+}*/
+h2.news {
+	font: 50px Arial;
+	font-weight: bold;
+    color: #0F526B;
+    margin-block-end: 30px;
+}
+article.news {	
+	margin-block-start: 0px;
+	background-color: #f2f2f2;
+	padding: 60px;
+	border-radius: 8px;
+	box-shadow: 5px 5px 5px 5px #0E313D;
+	max-width: 960px;
+	min-width: 360px;
+}
+h3.news {
+	margin-block-start: 0;
+	font: 40px Arial;
+	font-weight: bold;
+    color: #00597b;
+}
+/*=== START окремий клас ====*/
+	.time_of_news {
+		margin-block-start: 16px;
+		margin-block-end: 0;
+		font: 18px Arial;
+		color: #717171;
+	}
+/*=== END окремий клас ====*/
+
+div.news img {
+	width: 100%;
+	height: 100%;
+	position: static;
+    top: 50%;
+    left: 50%;
+}
+p.news {
+	font: 24px Arial;
+	color: black;
+}
+div.news button {
+	margin-block-start: 16px;
+	border-radius: 4px;
+	border-width: 0px;
+	width: 160px;
+	height: 48px;
+	font: 18px Arial;
+	color: white;
+	background-color: #00597b;}
+
